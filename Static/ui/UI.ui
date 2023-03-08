@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>460</width>
+    <height>544</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:balck;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>-30</y>
+      <width>511</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <widget class="QWidget" name="main">
+     <widget class="QPushButton" name="add_note">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>350</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:30px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>اضافه کردن</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="all_notes">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>430</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:30px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>برنامه من</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>90</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	color:white;
+	font-size:72px;
+	font-family:Aviny;
+}</string>
+      </property>
+      <property name="text">
+       <string>برنامه روزانه</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="content">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(3, 252, 73);
+border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:32px;
+padding-left:20px;
+padding-right:20px;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>محتوا</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>510</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-size:26px;
+font-family:Aviny;
+border-radius:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="content_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(3, 252, 73);
+border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:32px;
+padding-left:20px;
+padding-right:20px;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>بازه زمانی</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QPushButton" name="back_1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>350</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>برگشت</string>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="listWidget">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>80</y>
+        <width>291</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:34px;
+padding-left:20px;
+padding-right:20px;
+padding-bottom:30px;
+padding-top:30px;
+background-color:rgb(3, 252, 73);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>430</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:22px;
+	font-family:Comic SANS MS;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>&lt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_3">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>430</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:22px;
+	font-family:Comic SANS MS;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_4">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>430</y>
+        <width>211</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>حذف</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>350</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+      <property name="text">
+       <string>ذخیره</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>520</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-size:26px;
+font-family:Aviny;
+border-radius:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>510</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-size:26px;
+font-family:Aviny;
+border-radius:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_9">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>350</y>
+        <width>91</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>ارسال</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QLineEdit" name="content_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(3, 252, 73);
+border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:32px;
+padding-left:20px;
+padding-right:20px;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>شماره تلفن</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>90</y>
+        <width>261</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	color:white;
+	font-size:72px;
+	font-family:Aviny;
+}</string>
+      </property>
+      <property name="text">
+       <string>ارسال برنامه</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="content_5">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(3, 252, 73);
+border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:32px;
+padding-left:20px;
+padding-right:20px;</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>کد امنیتی</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_7">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>350</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>تایید کد</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_6">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>430</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>برگشت</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="content_4">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>270</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(3, 252, 73);
+border-radius:10px;
+color:white;
+font-family:Aviny;
+font-size:32px;
+padding-left:20px;
+padding-right:20px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="placeholderText">
+       <string>نام کاربری دبیر</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>510</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-size:26px;
+font-family:Aviny;
+border-radius:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="back_8">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>350</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	color:white;
+	font-size:32px;
+	font-family:Aviny;
+	background-color:rgb(3, 252, 73);
+	border-radius:10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>ارسال فایل</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>430</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:white;
+font-size:26px;
+font-family:Aviny;
+border-radius:10px;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>460</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
