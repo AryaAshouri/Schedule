@@ -20,9 +20,10 @@ Picture of the whole project(all pages) which includes:<br>
 3_ And finally the page that you can send it for your teacher in bale<br>
 <br>
 <p align="center">
-    <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Final.PNG">
+    <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Final.png">
 </p>
 <br>
+
 ## ⚙️ Installation<br>
 1_ Clone the project at first<br>
 2_ Install all requirements (libraries I've imported)<br>
