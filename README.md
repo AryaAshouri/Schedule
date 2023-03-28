@@ -14,6 +14,9 @@ Here a video of how does the application works:
     <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Video.gif">
 </p>
 <br>
+<br>
+
+## 📄 Pages<br>
 Picture of the whole project(all pages) which includes:<br>
 1_ First page which you can write your schedule<br>
 2_ Second one where you can see the result and you can also save it as excel file<br>
