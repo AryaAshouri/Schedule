@@ -17,10 +17,10 @@ Here a video of how does the application works:
 <br>
 
 ## 📄 Pages<br>
-Picture of the whole project(all pages) which includes:<br>
+Picture of the whole project includes:<br>
 1_ First page which you can write your schedule<br>
-2_ Second one where you can see the result and you can also save it as excel file<br>
-3_ And finally the page that you can send it for your teacher in bale<br>
+2_ Second one where you can see the result and you can also save the excel<br>
+3_ And finally the page that you can send it for your teacher in bale easily<br>
 <br>
 <p align="center">
     <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Final.png">
