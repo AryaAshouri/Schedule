@@ -3,7 +3,7 @@
 </h1>
 
 ## 💻 Description<br>
-
+I made this project because most of students at school are not into writing their schedule which they have to write and send it for our teachers! And because of that this idea came to my mind to build an application to provide an easier way to do it faster and also in the better way. Just imagine one of the students hasn't written the schedule and wants to do it now! But one of benefits of this application is that we are able to see when they have written it.
 <br>
 <br>
 
