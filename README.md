@@ -14,6 +14,7 @@ Here a video of how does the application works:
     <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Video.gif">
 </p>
 <br>
+<br>
 
 ## 📄 Pages<br>
 Picture of the whole project includes:<br>
