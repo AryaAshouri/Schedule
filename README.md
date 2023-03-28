@@ -30,6 +30,7 @@ Picture of the whole project includes:<br>
 ## 🎯 Aims of the project
 My first and main aim of building this project was to make this process easier. I mean writing schedules beacause as I mentioned before It's really hard to do it using paper and pen and also it could be a good way not wasting papers! And the other one includes challenge myself building such applications to improve my programming skills which I think could be really helpful because first of the journey they were so many technologies I didn't know about but right now I know about all of them which I'm going to use them in my other projects.
 <br>
+<br>
 
 ## ⚙️ Installation<br>
 1_ Clone the project at first<br>
