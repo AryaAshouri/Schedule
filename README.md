@@ -14,14 +14,12 @@ Here a video of how does the application works:
     <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Video.gif">
 </p>
 <br>
-<br>
 
 ## 📄 Pages<br>
 Picture of the whole project includes:<br>
 1_ First page which you can write your schedule<br>
 2_ Second one where you can see the result and you can also save the excel<br>
 3_ And finally the page that you can send it for your teacher in bale easily<br>
-<br>
 <p align="center">
     <img src="https://github.com/AryaAshouri/Schedule/blob/master/Sources/Final.png">
 </p>
