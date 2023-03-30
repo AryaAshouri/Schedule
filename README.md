@@ -3,7 +3,9 @@
 </h1>
 
 ## 💻 Description<br>
+<p align="justify">
 I made this project because most of students at school are not into writing their schedule which they have to write and send it for our teachers! And because of that this idea came to my mind to build an application to provide an easier way to do it faster and also in the better way. Just imagine one of the students hasn't written the schedule and wants to do it now! But one of benefits of this application is that we are able to see when they have written it.
+</p>
 <br>
 <br>
 
@@ -27,7 +29,9 @@ Picture of the whole project includes:<br>
 <br>
 
 ## 🎯 Aims of the project
+<p align="justify">
 My first and main aim of building this project was to make this process easier. I mean writing schedules beacause as I mentioned before It's really hard to do it using paper and pen and also it could be a good way not wasting papers! And the other one includes challenge myself building such applications to improve my programming skills which I think could be really helpful because first of the journey they were so many technologies I didn't know about but right now I know about all of them which I'm going to use them in my other projects.
+</p>
 <br>
 <br>
 
