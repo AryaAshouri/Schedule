@@ -34,5 +34,5 @@ My first and main aim of building this project was to make this process easier. 
 ## ⚙️ Installation<br>
 1_ First of all clone the project<br>
 2_ Install all requirements (modules I've imported)<br>
-3_ Run App.py<br>
+3_ Run App.py to see the results<br>
 <br>
